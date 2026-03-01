@@ -1,6 +1,6 @@
 const CACHE_NAME = 'workout-planner-v1';
 const ASSETS = [
-    './workout.html',
+    './index.html',
     './favicon.png',
     './zoro-one-piece-black-white-moewalls-com.mp4'
 ];

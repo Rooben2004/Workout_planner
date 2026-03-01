@@ -19,7 +19,7 @@ function createWindow() {
         autoHideMenuBar: true
     });
 
-    win.loadFile('workout.html');
+    win.loadFile('index.html');
     win.setMenuBarVisibility(false);
 }
 

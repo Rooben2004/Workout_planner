@@ -2,7 +2,7 @@
     "name": "Workout Planner",
     "short_name": "WorkoutPlan",
     "description": "Offline workout planner and fitness tracker",
-    "start_url": "./workout.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#050505",
     "theme_color": "#2ecc71",
