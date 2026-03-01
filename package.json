@@ -1,0 +1,33 @@
+{
+    "name": "workout-planner",
+    "version": "1.0.0",
+    "description": "Workout Planner - Offline fitness tracker desktop app",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder --win portable"
+    },
+    "author": "Rooben",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^28.0.0",
+        "electron-builder": "^24.0.0"
+    },
+    "build": {
+        "appId": "com.rooben.workoutplanner",
+        "productName": "Workout Planner",
+        "files": [
+            "main.js",
+            "workout.html",
+            "favicon.png",
+            "zoro-one-piece-black-white-moewalls-com.mp4"
+        ],
+        "win": {
+            "target": "portable",
+            "icon": "favicon.png"
+        },
+        "portable": {
+            "artifactName": "WorkoutPlanner.exe"
+        }
+    }
+}
